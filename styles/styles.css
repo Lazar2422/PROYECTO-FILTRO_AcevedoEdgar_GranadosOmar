@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.transparente{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    border-color: transparent;
+    position: relative;
+    opacity: 0%;
+    bottom: 65%;
+    left: 44.2%;
+    width: 197px;
+    height: 176px;
+    animation: desvanecer 2s linear;
+}
+@keyframes desvanecer{
+    0%{opacity: 100%;}
+    25%{opacity: 100%;}
+    40%{opacity: 0%;}
+    80%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+.log-in{
+    position: relative;
+    bottom: 105%;
+    left: 25%;
+    
+width: 936px;
+height: 761px;
+    background-color: white;
+    border-radius: 67px;
+    opacity: 0%;
+    animation: aparecer 1s linear forwards;
+    animation-delay: 2.2s;
+}
+.login{
+    position: relative;
+    top: 30px;
+    left: 430px;
+width: 103px;
+height: 116px;
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/MYRIADPRO-REGULAR.woff);
+}
+@font-face {
+    font-family: "light";
+    src: url(../fonts/MyriadPro-Light.woff);
+}
+.panel-kario{
+    position: relative;
+    font-family: "regular";
+    text-align: center;
+    font-size: 40px;
+    left: 230px;
+    width: 500px;
+    height: 96px;
+}
+.ingresar{
+    font-family: "light";
+    font-size: 20px;
+    left: 699px;
+width: auto;
+height: 20px;
+    text-align: center;
+}
+form{
+    position: relative;
+    font-family: "light";
+    font-size: 25px;
+    top: 20px;
+    left: 150px;
+width: 76px;
+height: 25px;
+}
+input{
+    width: 650px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+button{
+    position: relative;
+    top: 220px;
+    left: 305px;
+    width: 336px;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    background-color: #F97A2C;
+    border-radius: 40px;
+}
+.problemas{
+    top: 230px;
+    position: relative;
+    font-family: "light";
+    font-size: 15px;
+    text-align: center;
+}
+@keyframes aparecer{
+    0%{opacity: 100%;}
+    100%{opacity: 100%;}
+}
