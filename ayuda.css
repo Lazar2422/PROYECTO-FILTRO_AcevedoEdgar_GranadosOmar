@@ -1,0 +1,95 @@
+/* Estilos básicos de la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    height: 1080px;
+    width: 1920px;
+  }
+  
+  header {
+    background-color: #48e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    margin-top: 50px;
+  }
+  
+  section {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(64, 25, 25, 0.1);
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .faq h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-top: 30px;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+  
