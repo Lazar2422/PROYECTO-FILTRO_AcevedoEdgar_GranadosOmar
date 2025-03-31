@@ -1,26 +1,28 @@
 body{
     margin: 0;
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    height: 100%;
 }
 .container{
     width: 100%;
     height: 100%;
     background-color: black;
+    position:fixed;
 }
 .transparente{
     width: 100%;
     height: 100%;
+    position:fixed;
 }
 .logo{
     border-color: transparent;
-    position: relative;
     opacity: 0%;
-    bottom: 65%;
-    left: 44.2%;
+    bottom: 45%;
+    left: 45%;
     width: 197px;
     height: 176px;
     animation: desvanecer 2s linear;
+    position:fixed;
 }
 @keyframes desvanecer{
     0%{opacity: 100%;}
@@ -30,24 +32,25 @@ body{
     100%{opacity: 100%;}
 }
 .log-in{
-    position: relative;
-    bottom: 105%;
-    left: 25%;
-    
-width: 936px;
-height: 761px;
+    display: flex;
+    justify-content: center;
+    bottom: 15%;
+    left: 27%;
+    width: 45%;
+    height: 65%;
     background-color: white;
-    border-radius: 67px;
+    border-radius: 8%;
     opacity: 0%;
+    position:fixed;
     animation: aparecer 1s linear forwards;
     animation-delay: 2.2s;
 }
 .login{
-    position: relative;
-    top: 30px;
-    left: 430px;
-width: 103px;
-height: 116px;
+    top:22%;
+    left: 44%;
+    width: 12%;
+    height: 12%;
+    position:fixed;
 }
 @font-face {
     font-family: "regular";
@@ -58,56 +61,76 @@ height: 116px;
     src: url(../fonts/MyriadPro-Light.woff);
 }
 .panel-kario{
-    position: relative;
     font-family: "regular";
     text-align: center;
-    font-size: 40px;
-    left: 230px;
-    width: 500px;
-    height: 96px;
+    font-size: 2vw;
+    bottom:60%;
+    left: 35%;
+    width: 30%;
+    height: 2%;
+    position:fixed;
 }
 .ingresar{
     font-family: "light";
-    font-size: 20px;
-    left: 699px;
-width: auto;
-height: 20px;
+    font-size: 1vw;
+    width: auto;
+    bottom: 53%;
+    height: 20px;
+    position:fixed;
     text-align: center;
 }
 form{
-    position: relative;
     font-family: "light";
-    font-size: 25px;
-    top: 20px;
-    left: 150px;
-width: 76px;
-height: 25px;
+    font-size: 1.3vw;
+    bottom: 50%;
+    left: 33%;
+    height: 25px;
+    position:fixed;
 }
 input{
-    width: 650px;
-    height: 50px;
+    width: 33%;
+    height: 4%;
+    max-height: 50px;
     border-radius: 20px;
+    position:fixed;
     margin-bottom: 20px;
 }
 button{
-    position: relative;
-    top: 220px;
-    left: 305px;
-    width: 336px;
-    height: 70px;
-    font-size: 25px;
+    top: 68%;
+    left: 43%;
+    width: 15%;
+    height: 6%;
+    font-size: 1.3vw;
     color: white;
     background-color: #F97A2C;
+    position:fixed;
     border-radius: 40px;
 }
+button:hover{
+    cursor: pointer;
+}
 .problemas{
-    top: 230px;
-    position: relative;
+    top: 75%;
     font-family: "light";
-    font-size: 15px;
+    font-size: 0.78vw;
+    position:fixed;
     text-align: center;
 }
 @keyframes aparecer{
     0%{opacity: 100%;}
     100%{opacity: 100%;}
+}
+@keyframes irse{
+    0%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
+.welcome{
+    position: relative;
+    opacity: 0%;
+    width: 50%;
+    left: 25%;
+    height: 540px;
+    top:-166%;
+    position:fixed;
+    background-color:white;
 }
