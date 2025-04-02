@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: #48e;
+  background-color:rgb(212, 100, 20); 
   color: white;
   padding: 20px;
   text-align: center;
@@ -66,23 +66,23 @@ section h2 {
   margin-bottom: 15px;
 }
 
-.faq h3 {
+h3 { 
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.faq p {
+p {
   margin-bottom: 15px;
 }
 
 footer {
   text-align: center;
-  font-size: 1rem;
-  color: #666;
+  font-size: 1.5rem;
+  color: #FFF;
   margin-top: 30px;
   padding: 10px;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color:rgb(212, 100, 20);
 }
 
 /* Estilos responsivos */
