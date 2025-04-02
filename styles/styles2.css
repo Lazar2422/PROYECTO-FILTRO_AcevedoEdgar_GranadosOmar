@@ -258,12 +258,13 @@ a{
 .div7{
     border: 0.1vw solid black;
     font-size: 1vw;
-    font-weight: 700;
     width: 8vw;
     height: 1.5vw;
-    margin: 2vw 0vw 0vw 40vw;
+    margin-left: 40vw;
     padding: 10px 2vw;
     background-color: #ec8a2f;
+    font-family: "light";
+    text-align: center;
     color: white;
     border: none;
     border-radius: 1.5vw;
@@ -279,8 +280,8 @@ pre{
     text-align: center;
 }
 .letra{
-    font-family: "regular";
-    font-size: 0.7vw;
+    font-family: "light";
+    font-size: 1vw;
     margin: 1.2vw 0vw 0vw 0vw;
 }
 .circulo1 {
@@ -293,7 +294,7 @@ pre{
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    margin-left: 6.5vw;
+    margin-left: 6.2vw;
     font-weight: bold;
     color: black;
     position: fixed;
@@ -385,7 +386,73 @@ pre{
     position: fixed;
     margin-left: 6.5vw;
 }
-/* Ajustes generales para el iPhone 14 Pro Max */
+.line-right{
+    position: fixed;
+    width: 2vw;
+    height: 2vh;
+    left: 90%;
+    margin-top: -3.5vh;
+}
+.line-right2{
+    position: fixed;
+    width: 2vw;
+    height: 2vh;
+    left: 90%;
+    margin-top: -3vh;
+}
+.line-right3{
+    position: fixed;
+    width: 2vw;
+    height: 2vh;
+    left: 90%;
+    margin-top: -2vh;
+}
+.line-right4{
+    position: fixed;
+    width: 2vw;
+    height: 2vh;
+    left: 90%;
+    margin-top: -0.4vh;
+}
+.line-right5{
+    position: fixed;
+    width: 2vw;
+    height: 2vh;
+    left: 90%;
+    margin-top: 1vh;
+}
+.line-right6{
+    position: fixed;
+    width: 2vw;
+    height: 2vh;
+    left: 90%;
+    margin-top: 2vh;
+}
+.line-right img{
+    width: 100%;
+    height: 100%;
+}
+.line-right2 img{
+    width: 100%;
+    height: 100%;
+}
+.line-right3 img{
+    width: 100%;
+    height: 100%;
+}
+.line-right4 img{
+    width: 100%;
+    height: 100%;
+}
+.line-right5 img{
+    width: 100%;
+    height: 100%;
+}
+.line-right6 img{
+    width: 100%;
+    height: 100%;
+}
+
 @media screen and (max-width: 430px) {
     body {
         margin: 0;
