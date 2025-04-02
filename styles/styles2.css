@@ -15,13 +15,14 @@ body > div{
     width: 100%;
     height: 100%;
     background-color: black;
+    background-image: url(../imagenes/pexels-pixabay-159400.png);
     animation: irse 3s linear forwards;
 }
 .logued{
     display: flex;
     justify-content: center;
     width: 48.75vw;
-    height: 50.833vh;
+    height: 52.833vh;
     background-color: white;
     border-radius: 3vw;
     animation: irse 0.1s linear forwards;
@@ -82,8 +83,7 @@ body > div{
     position:fixed;
     animation-delay: 2.2s;
 }
-
-.Fondo_Principal{
+.main-container{
     display: grid;
     width: 100%;
     height: 100%;
@@ -93,117 +93,153 @@ body > div{
     opacity: 0;
     animation: aparecer 8s 3s forwards;
     position: fixed;
-    
-
-    
 }
-
-
-.Fondo_Principal > div{
+.main-container > div{
     background-color: rgb(255, 255, 255);
     margin: 0vw;
     padding: 2vw;
     font-size: 30px;
     width: 90vw;
 }
-
-.img1{
+.image1{
     margin: -0.9vw 0vw 0vw 4vw;
     position: fixed;
     width: 1.5vw;
 } 
-.img2{
-    margin: -0.5vw 0vw 0vw 84.7vw;
-    position: fixed;
-    width: 1.2vw;
-} 
-.img3{
-    margin: -0.9vw 0vw 0vw 70vw;
-    position: fixed;
-    width: 1.5vw;
-} 
-.img4{
-    margin: -0.9vw 0vw 0vw 57vw;
-    position: fixed;
-    width: 1.4vw;
-}
-.img5{
-    margin: -1.6vw 0vw 0vw 88.2vw;
-    position: fixed;
-    width: 2.5vw;
-}
-.img6{
-    margin: -0.9vw 0vw 0vw 31vw;
-    position: fixed;
-    width: 1.1vw;
-}
-.img7{
-    margin: -0.5vw 0vw 0vw 86.5vw;
-    position: fixed;
-    width: 1.1vw;
-}
-.img8{
+.image2{
     margin: -0.8vw 0vw 0vw 18vw;
     position: fixed;
     width: 1.2vw;
-}
-.img9{
+} 
+.image3{
+    margin: -0.9vw 0vw 0vw 31vw;
+    position: fixed;
+    width: 1.1vw;
+} 
+.image4{
     margin: -1vw 0vw 0vw 46vw;
     position: fixed;
     width: 2vw;
 }
-
-.Fondo_Principal2{
-    font-size: 1.8vw;
+.image5{
+    margin: -0.9vw 0vw 0vw 57vw;
+    position: fixed;
+    width: 1.4vw;
+}
+.image6{
+    margin: -0.9vw 0vw 0vw 70vw;
+    position: fixed;
+    width: 1.5vw;
+}
+.image7{
+    margin: -0.5vw 0vw 0vw 84.7vw;
+    position: fixed;
+    width: 1.2vw;
+}
+.image8{
+    margin: -0.5vw 0vw 0vw 86.5vw;
+    position: fixed;
+    width: 1.1vw;
+    
+}
+.image9{
+    margin: -1.6vw 0vw 0vw 88.2vw;
+    position: fixed;
+    width: 2.5vw;
+}
+.add{
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 5.8vw;
+    position: fixed;
+}
+.refresh{
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 19.8vw;
+    position: fixed;
+}
+.delete{
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 33vw;
+    position: fixed;
+}
+.report{
+    font-size: 1.2vw;
+    margin: -0.7vw 0vw 0vw 59.2vw;
+    position: fixed;
+}
+.help{
+    font-size: 1.2vw;
+    margin: -0.7vw 0vw 0vw 72vw;
+    position: fixed;
+}
+a{
+    font-family: "regular";
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.linea{
+    background-color: black;
+    width:500vw ;
+    height:0.09vw ;
+    margin: 1.5vw 0vw 0vw -6vw;
+    position: fixed;
+}
+.panel{
+    font-family: "regular";
+    font-size: 2.5rem;
     margin: 0.4vw 0vw 0vw 39vw;
     position: fixed;
 } 
-.Fondo_Principal3{
-    font-size: 1.2vw;
+.here{
+    font-family: "light";
+    font-size: 1.5rem;
     margin: -0.8vw 0vw 0vw 26vw;
     font-weight: 500;
     position: fixed;
 }
-.Fondo_Principal4{
-    font-size: 0.85vw;
-    font-weight: 700;
+.indicate{
+    font-family: "regular";
+    font-size: 1.5rem;
     margin: -1.4vw 0vw 0vw 0vw;
+    margin-left: 1vw;
     position: fixed;
+
 }
 
-.Fondo_Principal5-1{
+.div1{
     border: 0.1vw solid black;
     border-radius: 1.5vw;
     width: 84vw;
     height: 3.3vw;
-    margin: -4vw 0vw 0vw 1.7vw;
+    margin: -3vw 0vw 0vw 1.7vw;
     position: fixed;
 }
-.Fondo_Principal6-1{
+.div2{
     border: 0.1vw solid black;
     border-radius: 1.5vw;
     width: 84vw;
     height: 3.3vw;
-    margin: -2.9vw 0vw 0vw 1.7vw;
+    margin: -2.6vw 0vw 0vw 1.7vw;
     position: fixed;
 }
-.Fondo_Principal7-1{
+.div3{
     border: 0.1vw solid black;
     border-radius: 1.5vw;
     width: 84vw;
     height: 3.3vw;
-    margin: -1.5vw 0vw 0vw 1.7vw;
+    margin: -1.9vw 0vw 0vw 1.7vw;
     position: fixed;
 }
-.Fondo_Principal8-1{
+.div4{
     border: 0.1vw solid black;
     border-radius: 1.5vw;
     width: 84vw;
     height: 3.3vw;
-    margin: -0.9vw 0vw 0vw 1.7vw;
+    margin: -1vw 0vw 0vw 1.7vw;
     position: fixed;
 }
-.Fondo_Principal9-1{
+.div5{
     border: 0.1vw solid black;
     border-radius: 1.5vw;
     width: 84vw;
@@ -211,7 +247,15 @@ body > div{
     margin: -0.3vw 0vw 0vw 1.7vw;
     position: fixed;
 }
-.Fondo_Principal10-1{
+.div6{
+    border: 0.1vw solid black;
+    border-radius: 1.5vw;
+    width: 84vw;
+    margin: 0.3vw 0vw 0vw 1.7vw;
+    height: 3.3vw;
+    position: fixed;
+}
+.div7{
     border: 0.1vw solid black;
     font-size: 1vw;
     font-weight: 700;
@@ -226,117 +270,217 @@ body > div{
     cursor: pointer;
     position: fixed;
 }
-.Fondo_Principal10-1:hover {
+.div7:hover {
     background-color: #ca7d24;
 }
-.Fondo_Principal10-1:active {
-    background-color: #f39d1d;
+pre{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
-.letras1{
-    font-size: 1.2vw;
-    margin: -0.8vw 0vw 0vw 5.8vw;
-    position: fixed;
-}
-.letras2{
-    font-size: 1.2vw;
-    margin: -0.8vw 0vw 0vw 19.8vw;
-    position: fixed;
-}
-.letras3{
-    font-size: 1.2vw;
-    margin: -0.8vw 0vw 0vw 33vw;
-    position: fixed;
-}
-.letras4{
-    font-size: 1.2vw;
-    margin: -0.7vw 0vw 0vw 59.2vw;
-    position: fixed;
-}
-.letras5{
-    font-size: 1.2vw;
-    margin: -0.7vw 0vw 0vw 72vw;
-    position: fixed;
-}
-.letras6{
-    font-size: 1.2vw;
-    margin: 3vw 0vw 0vw 0vw;
-    position: fixed;
-}
-a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.raya{
-    background-color: black;
-    width:500vw ;
-    height:0.09vw ;
-    margin: 1.5vw 0vw 0vw -6vw;
-    position: fixed;
-}
-.juan1{
+.letra{
+    font-family: "regular";
     font-size: 0.7vw;
     margin: 1.2vw 0vw 0vw 0vw;
 }
-.juan2{
-    font-size: 0.7vw;
-    margin: 1.2vw 0vw 0vw 0vw;
-}
-.juan3{
-    font-size: 0.7vw;
-    margin: 1.2vw 0vw 0vw 0vw;
-}
-.juan4{
-    font-size: 0.7vw;
-    margin: 1.2vw 0vw 0vw 0vw;
-}
-.juan5{
-    font-size: 0.7vw;
-    margin: 1.2vw 0vw 0vw 0vw;
-}
-.p1{
+.circulo1 {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin-top: -23px;
+    border-radius: 50%;
+    background: conic-gradient(red 31%, lightgray 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 6.5vw;
+    font-weight: bold;
+    color: black;
     position: fixed;
-    width: 3vw;
-    margin: -0.7vw 0vw 0vw 0vw;
 }
-.p2{
+.circuloadentro{
+    width: 1.7vw;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
     position: fixed;
-    width: 2.2vw;
-    margin: -0.7vw 0vw 0vw 1vw;
 }
-.p3{
+.circulo2 {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin-top: -23px;
+    border-radius: 50%;
+    background: conic-gradient(red 25%, lightgray 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
     position: fixed;
-    width: 3vw;
-    margin: -0.7vw 0vw 0vw 1.7vw;
+    margin-left: 6.5vw;
 }
-.p4{
+.circulo3 {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin-top: -23px;
+    border-radius: 50%;
+    background: conic-gradient(lime 80%, lightgray 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
     position: fixed;
-    width: 3vw;
-    margin: -0.7vw 0vw 0vw 1vw;
+    margin-left: 6.5vw;
 }
-.p5{
+.circulo4 {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin-top: -23px;
+    border-radius: 50%;
+    background: conic-gradient(red 32%, lightgray 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
     position: fixed;
-    width: 3vw;
-    margin: -0.7vw 0vw 0vw 0.3vw;
+    margin-left: 6.5vw;
 }
-.g1{position: fixed;
-    width: 1.4vw;
-    margin: 0vw 0vw 0vw -0.5vw;
-}
-.g2{position: fixed; 
-    width: 1.4vw;
-    margin: 0vw 0vw 0vw -0.5vw;
-}
-.g3{
-position: fixed; 
-width: 1.4vw;
-margin: 0vw 0vw 0vw -0.1vw;
-}
-.g4{
+.circulo5 {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin-top: -23px;
+    border-radius: 50%;
+    background: conic-gradient(lime 95%, lightgray 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
     position: fixed;
-    width: 1.4vw;
-    margin: 0vw 0vw 0vw -0.6vw;
+    margin-left: 6.5vw;
 }
-.g5{ position: fixed;
-    width: 1.4vw;
-    margin: 0vw 0vw 0vw -0.2vw;
+.circulo6 {
+    width: 2.5vw;
+    height: 4.5vh;
+    margin-top: -23px;
+    border-radius: 50%;
+    background: conic-gradient(yellow 75%, lightgray 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    margin-left: 6.5vw;
+}
+/* Ajustes generales para el iPhone 14 Pro Max */
+@media screen and (max-width: 430px) {
+    body {
+        margin: 0;
+        width: 430px;
+        height: 932px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    
+    .logued {
+        width: 90%;
+        height: 60%;
+        border-radius: 5vw;
+    }
+    
+    .welcome, .profep, .user {
+        font-size: 5vw;
+    }
+    
+    .pp {
+        width: 20vw;
+        height: auto;
+    }
+    
+    .logo {
+        width: 25vw;
+        height: auto;
+    }
+    
+    .main-container {
+        grid-template-rows: repeat(11, auto);
+        width: 95%;
+        padding: 2vw;
+    }
+    
+    .main-container > div {
+        font-size: 4vw;
+        width: 95%;
+        margin: 2vw auto;
+        padding: 4vw;
+    }
+    
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9 {
+        width: 6vw;
+        position: relative;
+        margin: 2vw;
+    }
+    
+    .add, .refresh, .delete, .report, .help {
+        font-size: 3.5vw;
+        margin: 2vw 0;
+    }
+    
+    .linea {
+        width: 95%;
+        height: 0.5vw;
+    }
+    
+    .panel {
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    .here, .indicate {
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+    .div1, .div2, .div3, .div4, .div5, .div6 {
+        width: 90%;
+        height: 6vw;
+        border-radius: 4vw;
+        margin: 2vw auto;
+    }
+    
+    .div7 {
+        font-size: 4vw;
+        width: 50%;
+        height: 8vw;
+        border-radius: 4vw;
+    }
+    
+    .circulo1, .circulo2, .circulo3, .circulo4, .circulo5, .circulo6 {
+        width: 10vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+    
+    .circuloadentro {
+        width: 8vw;
+        height: 8vw;
+        font-size: 3vw;
+    }
 }
