@@ -1,39 +1,3 @@
-body{
-    margin: 0;
-    width: 1920px;
-    height: 1080px;
-}
-body > div{
-    display: flex;
-    justify-content: center;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    background-image: url(../imagenes/pexels-pixabay-159400.png);
-    animation: irse 3s linear forwards;
-}
-.logued{
-    display: flex;
-    justify-content: center;
-    width: 48.75vw;
-    height: 52.833vh;
-    background-color: white;
-    border-radius: 3vw;
-    animation: irse 0.1s linear forwards;
-    animation-delay: 2s;
-}
-.media{
-    margin-top: 2%;
-    width: 10%;
-    height: 10%;
-    position:fixed;
-}
 @font-face {
     font-family: "regular";
     src: url(../fonts/MYRIADPRO-REGULAR.woff);
@@ -42,47 +6,6 @@ body > div{
     font-family: "light";
     src: url(../fonts/MyriadPro-Light.woff);
 }
-.welcome{
-    font-family: "regular";
-    font-size: 2vw;
-    margin-top: 10%;
-    position: fixed;
-}
-.pp{
-    width: 7vw;
-    height: 12vh;
-    margin-top: 13%;
-    position: fixed;
-}
-.profep{
-    font-family: "regular";
-    font-size: 2vw;
-    margin-top: 21%;
-    position: fixed;
-}
-.user{
-    font-family: "light";
-    font-size: 1vw;
-    margin-top: 24%;
-    position: fixed;
-}
-@keyframes aparecer{
-    0%{opacity: 100%;}
-    100%{opacity: 100%;}
-}
-@keyframes irse{
-    0%{opacity: 100%;}
-    99%{opacity: 100%;}
-    100%{opacity: 0%;}
-}
-.logo{
-    opacity: 0%;
-    width: 10.26vw;
-    height: 16.296vh;
-    animation: aparecer 1s linear;
-    position:fixed;
-    animation-delay: 2.2s;
-}
 .main-container{
     display: grid;
     width: 100%;
@@ -90,8 +13,6 @@ body > div{
     left:2%;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(11,1fr);
-    opacity: 0;
-    animation: aparecer 8s 3s forwards;
     position: fixed;
 }
 .main-container > div{
@@ -142,6 +63,11 @@ body > div{
     width: 1.1vw;
     
 }
+.image9{
+    margin: -1.6vw 0vw 0vw 0vw;
+    position: fixed;
+    width: 2.5vw;
+}
 .add{
     font-size: 1.2vw;
     margin: -0.8vw 0vw 0vw 5.8vw;
@@ -167,16 +93,43 @@ body > div{
     margin: -0.7vw 0vw 0vw 72vw;
     position: fixed;
 }
-.image9{
-    margin: -1.6vw 0vw 0vw 0vw;
+.linea{
+    background-color: black;
+    width:300vw ;
+    height:0.09vw ;
+    margin: 1.5vw 0vw 0vw -6vw;
     position: fixed;
-    width: 2.5vw;
 }
-a{
+.panel{
+    font-family: "regular";
+    font-size: 2.5rem;
+    margin: 0.4vw 0vw 0vw 39vw;
+    position: fixed;
+} 
+.here{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 40%;    
+    font-family: "light";
+    font-size: 1.5rem;
+    margin-top: -0.8vw;
+    font-weight: 500;
+    position: fixed;
+}
+.indicate{
     font-family: "regular";
     font-size: 1.5rem;
-    text-decoration: none;
+    margin: -1.4vw 0vw 0vw 0vw;
+    margin-left: 1vw;
+    position: fixed;
+
+}
+a{
     color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 .menu-main{
     width: 4vw;
@@ -208,35 +161,6 @@ a{
 .menu-main:hover ul {
     margin-left: -1.3vw;
 }
-.linea{
-    background-color: black;
-    width:300vw ;
-    height:0.09vw ;
-    margin: 1.5vw 0vw 0vw -6vw;
-    position: fixed;
-}
-.panel{
-    font-family: "regular";
-    font-size: 2.5rem;
-    margin: 0.4vw 0vw 0vw 39vw;
-    position: fixed;
-} 
-.here{
-    font-family: "light";
-    font-size: 1.5rem;
-    margin: -0.8vw 0vw 0vw 26vw;
-    font-weight: 500;
-    position: fixed;
-}
-.indicate{
-    font-family: "regular";
-    font-size: 1.5rem;
-    margin: -1.4vw 0vw 0vw 0vw;
-    margin-left: 1vw;
-    position: fixed;
-
-}
-
 .div1{
     border: 0.1vw solid black;
     border-radius: 1.5vw;
@@ -435,21 +359,25 @@ pre{
     width: 2vw;
     height: 2vh;
     left: 90%;
-    margin-top: -3.5vh;
+    margin-top: -4vh;
+}
+.line-right input, .line-right2 input, .line-right3 input, .line-right4 input, .line-right5 input, .line-right6 input{
+    width:3vw;
+    height: 3vh;
 }
 .line-right2{
     position: fixed;
     width: 2vw;
     height: 2vh;
     left: 90%;
-    margin-top: -3vh;
+    margin-top: -3.5vh;
 }
 .line-right3{
     position: fixed;
     width: 2vw;
     height: 2vh;
     left: 90%;
-    margin-top: -2vh;
+    margin-top: -2.2vh;
 }
 .line-right4{
     position: fixed;
@@ -495,103 +423,4 @@ pre{
 .line-right6 img{
     width: 100%;
     height: 100%;
-}
-
-@media screen and (max-width: 430px) {
-    body {
-        margin: 0;
-        width: 430px;
-        height: 932px;
-    }
-    
-    .container {
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-    }
-    
-    .logued {
-        width: 90%;
-        height: 60%;
-        border-radius: 5vw;
-    }
-    
-    .welcome, .profep, .user {
-        font-size: 5vw;
-    }
-    
-    .pp {
-        width: 20vw;
-        height: auto;
-    }
-    
-    .logo {
-        width: 25vw;
-        height: auto;
-    }
-    
-    .main-container {
-        grid-template-rows: repeat(11, auto);
-        width: 95%;
-        padding: 2vw;
-    }
-    
-    .main-container > div {
-        font-size: 4vw;
-        width: 95%;
-        margin: 2vw auto;
-        padding: 4vw;
-    }
-    
-    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9 {
-        width: 6vw;
-        position: relative;
-        margin: 2vw;
-    }
-    
-    .add, .refresh, .delete, .report, .help {
-        font-size: 3.5vw;
-        margin: 2vw 0;
-    }
-    
-    .linea {
-        width: 95%;
-        height: 0.5vw;
-    }
-    
-    .panel {
-        font-size: 6vw;
-        text-align: center;
-    }
-    
-    .here, .indicate {
-        font-size: 4vw;
-        text-align: center;
-    }
-    
-    .div1, .div2, .div3, .div4, .div5, .div6 {
-        width: 90%;
-        height: 6vw;
-        border-radius: 4vw;
-        margin: 2vw auto;
-    }
-    
-    .div7 {
-        font-size: 4vw;
-        width: 50%;
-        height: 8vw;
-        border-radius: 4vw;
-    }
-    
-    .circulo1, .circulo2, .circulo3, .circulo4, .circulo5, .circulo6 {
-        width: 10vw;
-        height: 10vw;
-        font-size: 3vw;
-    }
-    
-    .circuloadentro {
-        width: 8vw;
-        height: 8vw;
-        font-size: 3vw;
-    }
 }

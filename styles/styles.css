@@ -104,6 +104,7 @@ button{
     background-color: #F97A2C;
     position:fixed;
     border-radius: 40px;
+    border: none;
 }
 button:hover{
     cursor: pointer;

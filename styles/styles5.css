@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/MYRIADPRO-REGULAR.woff);
+}
+@font-face {
+    font-family: "light";
+    src: url(../fonts/MyriadPro-Light.woff);
+}
+.main-container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    left:2%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(11,1fr);
+    position: fixed;
+}
+.main-container > div{
+    background-color: rgb(255, 255, 255);
+    margin: 0vw;
+    padding: 2vw;
+    font-size: 30px;
+    width: 90vw;
+}
+.image1{
+    margin: -0.9vw 0vw 0vw 4vw;
+    position: fixed;
+    width: 1.5vw;
+} 
+.image2{
+    margin: -0.8vw 0vw 0vw 18vw;
+    position: fixed;
+    width: 1.2vw;
+} 
+.image3{
+    margin: -0.9vw 0vw 0vw 31vw;
+    position: fixed;
+    width: 1.1vw;
+} 
+.image4{
+    margin: -1vw 0vw 0vw 46vw;
+    position: fixed;
+    width: 2vw;
+}
+.image5{
+    margin: -0.9vw 0vw 0vw 57vw;
+    position: fixed;
+    width: 1.4vw;
+}
+.image6{
+    margin: -0.9vw 0vw 0vw 70vw;
+    position: fixed;
+    width: 1.5vw;
+}
+.image7{
+    margin: -0.5vw 0vw 0vw 84.7vw;
+    position: fixed;
+    width: 1.2vw;
+}
+.image8{
+    margin: -0.5vw 0vw 0vw 86.5vw;
+    position: fixed;
+    width: 1.1vw;
+    
+}
+.image9{
+    margin: -1.6vw 0vw 0vw 0vw;
+    position: fixed;
+    width: 2.5vw;
+}
+.add{
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 5.8vw;
+    position: fixed;
+}
+.refresh{
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 19.8vw;
+    position: fixed;
+}
+.delete{
+    font-size: 1.2vw;
+    margin: -0.8vw 0vw 0vw 33vw;
+    position: fixed;
+}
+.report{
+    font-size: 1.2vw;
+    margin: -0.7vw 0vw 0vw 59.2vw;
+    position: fixed;
+}
+.help{
+    font-size: 1.2vw;
+    margin: -0.7vw 0vw 0vw 72vw;
+    position: fixed;
+}
+.linea{
+    background-color: black;
+    width:300vw ;
+    height:0.09vw ;
+    margin: 1.5vw 0vw 0vw -6vw;
+    position: fixed;
+}
+a{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.menu-main{
+    width: 4vw;
+    height: 0.5vh;
+    position: fixed;
+    left: 92%;
+}
+.menu-second {
+    display: none;
+    margin-top: 3vh;
+    background-color: #F97A2C;
+    border-radius: 5px;
+}
+.menu-second ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    margin-left: -1vw;
+    width: auto;
+}
+.menu-main:hover .menu-second {
+    display: block;
+    color: white;
+    width: 4vw;
+    font-size: 1.2rem;
+    margin-left: -1vw;
+}
+.menu-main:hover ul {
+    margin-left: -1.3vw;
+}
