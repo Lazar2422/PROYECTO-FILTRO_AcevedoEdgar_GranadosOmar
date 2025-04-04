@@ -11,12 +11,10 @@
     width: 100%;
     height: 100%;
     left:2%;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(11,1fr);
     position: fixed;
 }
 .main-container > div{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 0vw;
     padding: 2vw;
     font-size: 30px;
@@ -181,4 +179,101 @@ button{
     height: 6vh;
     font-family: "regular";
     border-radius: 40px;
+}
+@media screen and (max-width: 430px){
+    .add, .refresh, .delete, .report, .help{
+        display: none;
+    }
+    .image1 {
+        margin: 20px 0px 0px 20px;
+        position: fixed;
+        width: 30px;
+    }
+
+    .image2 {
+        margin: 20px 0px 0px 70px;
+        position: fixed;
+        width: 30px;
+    }
+
+    .image3 {
+        margin: 19px 0px 0px 120px;
+        position: fixed;
+        width: 25px;
+    }
+
+    .image4 {
+        margin: 20px 0px 0px 170px;
+        position: fixed;
+        width: 35px;
+    }
+
+    .image5 {
+        margin: 20px 0px 0px 225px;
+        position: fixed;
+        width: 30px;
+    }
+
+    .image6 {
+        margin: 20px 0px 0px 270px;
+        position: fixed;
+        width: 34px;
+    }
+
+    .image7 {
+        margin: 27px 0px 0px 315px;
+        position: fixed;
+        width: 20px;
+    }
+
+    .image8 {
+        margin: 27px 0px 0px 344px;
+        position: fixed;
+        width: 20px;
+    }
+
+    .image9 {
+        margin: 16px 0px 0px -10px;
+        position: fixed;
+        width: 40px;
+    }
+    button{
+        margin-top: 8vh;
+        width: 80%;
+        margin-left: 7vw;
+    }
+    .linea{
+        top:8vh;
+    }
+    .menu-main{
+        height: 0.5vh;
+        position: fixed;
+        left: 92%;
+    }
+    .menu-second {
+        display: none;
+        height: 3vh;
+        margin-top: 8vh;
+        background-color: #F97A2C;
+        border-radius: 5px;
+    }
+    .menu-second ul a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 1rem;
+        margin-left: -1vw;
+        width: auto;
+    }
+    .menu-main:hover .menu-second {
+        display: block;
+        color: white;
+        width: 10vw;
+        font-size: 1.2rem;
+        margin-left: -3vw;
+    }
+    .menu-main:hover ul {
+        margin-left: -8vw;
+        font-size: 0.7rem;
+    }
 }

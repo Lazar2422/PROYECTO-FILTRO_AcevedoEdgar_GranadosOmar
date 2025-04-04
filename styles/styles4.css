@@ -424,3 +424,229 @@ pre{
     width: 100%;
     height: 100%;
 }
+@media screen and (max-width: 430px) {
+    body {
+        margin: 0;
+        width: 430px;
+        height: 932px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .logued {
+        width: 90%;
+        height: 40%;
+        border-radius: 5vw;
+    }
+    .media{
+        margin-top: -2vh;
+        width: 15%;
+        height: 15%;
+    }
+    .welcome{
+        font-size: 6vw;
+        margin-top: 25%;
+    }
+    .profep{
+        font-size: 6vw;
+        margin-top: 60%;
+    }
+    .user {
+        font-size: 5vw;
+        margin-top: 70%;
+    }
+    .pp {
+        margin-top: 35%;
+        width: 20vw;
+        height: auto;
+    }
+    .logo {
+        width: 25vw;
+        height: auto;
+    }
+    .main-container {
+        grid-template-rows: repeat(11, auto);
+        width: 95%;
+        padding: 2vw;
+    }
+    .main-container > div {
+        font-size: 4vw;
+        width: 95%;
+        margin: 2vw auto;
+        padding: 4vw;
+    }
+    .panel{
+        left: -10vw;
+    }
+    .here{
+        left: 15vw;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .indicate{
+        left: 0vw;
+    }
+    .indicate span{
+        font-size: 0.5rem;
+        margin-left: 1vw;
+    }
+    .image1{
+        margin: -0.9vw 0vw 0vw 7.5vw;
+        position: fixed;
+        width: 6vw;
+    } 
+    .image2{
+        margin: -0.8vw 0vw 0vw 18vw;
+        position: fixed;
+        width: 6vw;
+    } 
+    .image3{
+        margin: -1.3vw 0vw 0vw 29vw;
+        position: fixed;
+        width: 5.5vw;
+    } 
+    .image4{
+        margin: -1vw 0vw 0vw 40vw;
+        position: fixed;
+        width: 7.5vw;
+    }
+    .image5{
+        margin: -0.9vw 0vw 0vw 52vw;
+        position: fixed;
+        width: 6vw;
+    }
+    .image6{
+        margin: -0.3vw 0vw 0vw 61vw;
+        position: fixed;
+        width: 6.2vw;
+    }
+    .image7{
+        margin: 1vw 0vw 0vw 70vw;
+        position: fixed;
+        width: 3.5vw;
+    }
+    .image8{
+        margin: 1.2vw 0vw 0vw 75vw;
+        position: fixed;
+        width: 3.5vw;
+    }
+    .image9{
+        margin: -2vw 0vw 0vw -2vw;
+        position: fixed;
+        width: 9vw;
+    }
+    .linea{
+        width: 1000vw;
+        top: 7vh;
+        left: -5vw;
+    }
+    .menu-main{
+        width: 4vw;
+        height: 0.5vh;
+        position: fixed;
+        left: 90%;
+        top: 4vh;
+    }
+    .menu-second {
+        display: none;
+        margin-top: 3vh;
+        background-color: #F97A2C;
+        border-radius: 5px;
+    }
+    .menu-second ul a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 1rem;
+        margin-left: -1vw;
+        width: auto;
+    }
+    .menu-main:hover .menu-second {
+        display: block;
+        margin-top:4vh;
+        color: white;
+        width: 14vw;
+        height: 5vh;
+        font-size: 1.2rem;
+        margin-left: -5vw;
+    }
+    .menu-main:hover ul {
+        margin-left: -7.5vw;
+        font-size: 1.1rem;
+        font-family: "regular";
+    }
+    .add, .refresh, .delete, .report, .help {
+        display: none;
+    }
+    .panel {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .div1, .div2, .div3, .div4, .div5, .div6 {
+        width: 90%;
+        height: 6vw;
+        border-radius: 4vw;
+        margin-left: -5vw;
+    }
+    .circulo1, .circulo2, .circulo3, .circulo4, .circulo5, .circulo6 {
+        margin-top: -0.5vh;
+        width: 4vw;
+        height: 4vw;
+        font-size: 3vw;
+    }
+    .circuloadentro {
+        width: 3vw;
+        height: 3vw;
+        font-size: 2vw;
+    }
+    .div7{
+        left: 20vw;
+        width: 20vw;
+    }
+    .line-right{
+        width: 3vw;
+        height: 3vh;
+        left: 94%;
+        margin-top: -1.5vh;
+    }
+    .line-right2{
+        width: 3vw;
+        height: 3vh;
+        left: 94%;
+        margin-top: -1.2vh;
+    }
+    .line-right3{
+        width: 3vw;
+        height: 3vh;
+        left: 94%;
+        margin-top: -1vh;
+    }
+    .line-right4{
+        width: 3vw;
+        height: 3vh;
+        left: 94%;
+        margin-top: -0.5vh;
+    }
+    .line-right5{
+        width: 3vw;
+        height: 3vh;
+        left: 94%;
+        margin-top: -0.1vh;
+    }
+    .line-right6{
+        width: 3vw;
+        height: 3vh;
+        left: 94%;
+        margin-top: 0vh;
+    }
+    .div7 button{
+        margin-left: -40vw;
+        border-radius: 20px;
+        width: 50vw;
+        height: 40px;
+        color: white;
+        font-size: 1rem;
+    }
+}
