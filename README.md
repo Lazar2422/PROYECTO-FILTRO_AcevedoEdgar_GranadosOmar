@@ -6,17 +6,17 @@ La interfaz utiliza un diseño estático con unidades relativas para asegurar un
 # Estructura de Archivos
 El sistema se compone de los siguientes archivos HTML:
 
-[./index.html](index.html.)
+[index.html](./index.html.)
 
-[./logued.html](logued.html.)
+[logued.html](./logued.html.)
 
-[./add.html](add.html.)
+[add.html](./add.html.)
 
-[./delete.html](delete.html.)
+[delete.html](./delete.html.)
 
-[./report.html](report.html.)
+[report.html](./report.html.)
 
-[./help.html](help.html.)
+[help.html](./help.html.)
 
 # index.html
 Esta página representa la puerta de entrada al sistema. Incluye dos campos principales para que el usuario ingrese sus credenciales:
@@ -88,3 +88,7 @@ También se presentan casillas de verificación al lado derecho de cada fila.
 
 # help.html
 La sección de ayuda está pensada para mostrar orientación básica al usuario.
+
+# Autores
+
+[]
