@@ -91,4 +91,5 @@ La sección de ayuda está pensada para mostrar orientación básica al usuario.
 
 # Autores
 
-[]
+[Omar Fernando Granados Parra](https://github.com/Lazar2422)
+[Edgar Leonardo Acevedo Arteaga](https://github.com/acevedoleonardo)
